@@ -22,9 +22,5 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
 }
 bool isSubtree(struct TreeNode* root, struct TreeNode* subRoot){
     if(root == NULL) return false;
-<<<<<<< HEAD
     return isSameTree(root,subRoot)||isSubtree(root->left,subRoot)||isSubtree(root->right,subRoot);
-=======
-    return compare(s,t)||isSubtree(s->left,t)||isSubtree(s->right,t);
->>>>>>> 4d70d317fd1657ec00636a2f85ceec714acf9d41
 }
